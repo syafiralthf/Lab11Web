@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #ffe6f0;
+}
+
+/* HEADER */
+.header {
+    background: #ff69b4;
+    color: white;
+    padding: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* LAYOUT UTAMA */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    min-height: calc(100vh - 110px);
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 200px;
+    background: #ffb6c1;
+    padding: 20px;
+    border-radius: 16px;
+    height: fit-content;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    margin-bottom: 12px;
+    background: white;
+    color: #ff1493;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sidebar a:hover {
+    background: #ff69b4;
+    color: white;
+}
+
+/* CONTENT */
+.content {
+    width: 100%;
+    max-width: 650px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 0 15px rgba(255,105,180,0.3);
+}
+
+/* JUDUL */
+.card h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* BUTTON */
+.btn {
+    background: #ff69b4;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: #ff1493;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th {
+    background: #ff69b4;
+    color: white;
+    padding: 10px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* FOOTER */
+footer {
+    background: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* WRAPPER CENTER */
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+/* CARD */
+.card {
+    width: 100%;
+    max-width: 700px;
+    background: white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(255,105,180,0.25);
+}
+
+/* JUDUL */
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* TOMBOL ATAS */
+.action-center {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* ALERT */
+.alert-success {
+    background: #e9ffe9;
+    border: 1px solid green;
+    color: green;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* TABEL */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #ff69b4;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* BUTTON */
+.btn {
+    background: #ff69b4;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: #ff1493;
+}
+
+.btn-danger {
+    background: #ff4d6d;
+}
